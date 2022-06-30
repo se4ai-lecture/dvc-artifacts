@@ -1,4 +1,6 @@
 [core]
-    remote = storage
+    remote = storagehttp
 ['remote "storage"']
     url = s3://se4ai-lecture-dvc-bucket
+['remote "storagehttp"']
+    url = https://se4ai-lecture-dvc-bucket.s3.eu-central-1.amazonaws.com
